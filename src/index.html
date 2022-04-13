@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Андрей Браун</div>
+            <div class="menu">
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Прайс</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>         
+            </div>
+        </nav>
+    </header>
+    
+    
+    <div class="main">
+        <div class="title__container">
+            <h1>Привет!<br>Я Андрей Браун</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <input type="submit" value="Обо мне">
+            <input type="submit" value="Мои работы">
+        </div>
+    </div>
+    
+    
+    <div class="about">
+        <h3>ОБО МНЕ</h3>
+        <!-- вставить пикчу-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia fugit, explicabo perferendis voluptatum quo magnam, debitis doloribus ea nesciunt ex veritatis dolore. Iste esse, unde quasi reprehenderit fugit voluptatum.</p>
+        <input type="submit" value="Скачать резюме">
+    </div>
+    
+    
+    <div class="profile">
+        <h3>ЧТО Я УМЕЮ</h3>
+        <!-- почитать, как раскидать блочные теги в строку -->
+    </div>
+    
+    
+    <div class="cases">
+        <h3>КЕЙСЫ</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae odit nobis, molestias quaerat itaque beatae quas, iusto voluptas neque odio saepe temporibus aliquid, incidunt maxime debitis ullam architecto est perspiciatis?</p>
+        <!-- пикча -->
+        <div class="client"> <!-- вывел в отдельный div чтобы потом в css распределить блоки в строку под картинкой -->
+            <h4>CLIENT:</h4>
+            <p>Company name</p>
+            <h4>WEBSITE</h4>
+            <p>URL</p>
+            <input type="submit" value="VISIT LIVE SITE">
+        </div>
+        <div class="projectName">
+            <h4>Название проекта</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos aut quas rerum obcaecati magni ad, officia aperiam sequi reprehenderit neque nostrum eaque ut, modi commodi hic illo labore fugit, inventore!</p>
+        </div>
+    </div>
+    
+    
+    <div class="calculator">
+        <h3>Расчет стоймости</h3> <!-- оставил h3, чтобы заголовки разделов одного размера были -->
+        <h4>ТИП САЙТА</h4>
+        <select class="siteTypeSelect">
+            <option>1 тип</option>
+            <option>2 тип</option>
+            <option>3 тип</option>
+        </select>
+        
+        <h4>ДИЗАЙН</h4>
+        <select class="siteDesignSelect">
+            <option>1 тип</option>
+            <option>2 тип</option>
+            <option>3 тип</option>
+        </select>
+        
+        <h4>АДАПТИВНОСТЬ</h4>
+        <select class="siteAdaptabilitySelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <script>
+            var time = 0;
+            document.getElementById("time").innerHTML = time;
+        </script>
+        <h5>Сроки</h5>
+        <h5><div>0</div></h5> <!--> вставил 0 в качестве значения, как я понял, потом нужно будет поставить id для div и через js подсчитывать значения? -->
+        <h5>Стоймость</h5>
+        <h5><div>0</div></h5>
+    </div>
+    
+    
+    <div class="stats">
+        <h3>НЕМНОГО СТАТИСТИКИ</h3>
+        <div class="statsClient">
+            <!-- picture -->
+            <p><b>120</b><br>счастливых клиентов</p>
+        </div>
+        <div class="statsClient">
+            <!-- picture -->
+            <p><b>4600</b><br>часов работы</p>
+        </div>
+        <div class="statsClient">
+            <!-- picture -->
+            <p><b>340</b><br>проектов завершено</p>
+        </div>
+        <div class="statsClient">
+            <!-- picture -->
+            <p><b>23</b><br>наград получено</p>
+        </div>
+    </div>
+    
+    
+    <div class="reviews">
+       <h3>ОТЗЫВЫ</h3>
+        <!-- пикча -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore numquam ab enim. In tenetur animi culpa facilis modi minima quae, laudantium doloribus! Voluptate, <br> distinctio expedita consequuntur quam doloribus porro rerum!<br><br> <b>Михаил</b>, гендиректор ПАО Газпром.</p>
+    </div>
+    
+    
+    <div class="contacts">
+        <h3>МОИ КОНТАКТЫ</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, commodi rem. Quia magnam totam harum laborum ullam tempore, aliquam consequuntur!</p>
+        <a href="">Санкт-Петербург<br>Невский проспект, 11</a>
+        <a href="mailto:info@companyname.com">info@companyname.com</a>
+        <a href="tel:+79999999999">+7 999 999-99-99</a>
+        <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+        <input type="text" name="" placeholder="Имя">
+        <input type="text" name="" placeholder="Email">
+        <input type="text" name="" placeholder="Сообщение">
+        <input type="submit" value="Отправить">
+        <a href=""><img src="" alt="Соцсеть1"></a>
+        <a href=""><img src="" alt="Соцсеть2"></a>
+        <a href=""><img src="" alt="Соцсеть3"></a>
+        <a href=""><img src="" alt="Соцсеть4"></a>
+        <a href=""><img src="" alt="Соцсеть5"></a>
+        <a href=""><img src="" alt="Соцсеть6"></a>
+    </div>
+</body>
+</html>
